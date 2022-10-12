@@ -1,3 +1,39 @@
+.logo-name {
+    font-family: 'Audiowide', cursive;
+}
+
+.nav li {
+    font-size: 1.5rem;
+}
+
+.bi {
+    vertical-align: -.125em;
+    fill: currentColor;
+}
+
+.icon-link {
+    display: inline-flex;
+    align-items: center;
+}
+.icon-link > .bi {
+    margin-top: .125rem;
+    margin-left: .125rem;
+    transition: transform .25s ease-in-out;
+    fill: currentColor;
+}
+.icon-link:hover > .bi {
+    transform: translate(.25rem);
+}
+
+.services-grid svg {
+    font-size: 2rem;
+    color: #8c0003 !important;
+}
+
+symbol path, symbol polygon {
+    fill: #8c0003 !important;
+}
+
 .business-name {
     border: 2px solid black;
     width: 350px;
@@ -5,6 +41,14 @@
     padding: 20px;
     border-radius: .25rem;
     text-transform: uppercase;
+}
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
 }
 
 
