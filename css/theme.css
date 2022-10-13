@@ -1,3 +1,7 @@
+a:hover {
+    color: #8c0003;
+}
+
 .logo-name {
     font-family: 'Audiowide', cursive;
 }
@@ -34,6 +38,26 @@ symbol path, symbol polygon {
     fill: #8c0003 !important;
 }
 
+.tel-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+svg.yelp {
+    background: #8c0003;
+    border-radius: 50%;
+    font-size: 1.8rem;
+    padding: 8px;
+}
+
+svg.yelp:hover {
+    background: #FF1A1A;
+}
+
+symbol#yelp path, symbol#yelp polygon {
+    fill: white !important;
+}
+
 .business-name {
     border: 2px solid black;
     width: 350px;
@@ -55,5 +79,17 @@ symbol path, symbol polygon {
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-collapse {
         justify-content: center;
+    }
+}
+
+@media (max-width: 992px) {
+    .item-address {
+        order: 1;
+    }
+    .item-social {
+        order: 3;
+    }
+    .item-contact {
+        order: 2;
     }
 }
